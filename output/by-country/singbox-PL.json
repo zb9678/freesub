@@ -10,8 +10,7 @@
       "server_port": 80,
       "uuid": "d9c7ec1f-5aa3-469a-b860-760c686806b0",
       "transport": {
-        "type": "ws",
-        "path": "/"
+        "type": "ws"
       }
     },
     {
@@ -27,65 +26,41 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 03 - xiaohe",
-      "server": "node64.tomalgopas.fun",
-      "server_port": 443,
-      "uuid": "3464a5bd-6a17-4ac3-8ca9-86a54c1aac7b",
-      "tls": {
-        "enabled": true,
-        "server_name": "samsung.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "tKAYeVSM4yLXiOdKLMFP751fhII6YyqfbMXy_MSuejI",
-          "short_id": ""
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "vless-grpc"
-      }
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇵🇱 波兰 (Poland) 04 - xiaohe",
-      "server": "admin.wwwinternetvideo.click",
+      "tag": "🇵🇱 波兰 (Poland) 03 - xiaohe",
+      "server": "45.192.12.93",
       "server_port": 443,
       "password": "YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc",
       "tls": {
         "enabled": true,
         "server_name": "admin.wwwinternetvideo.click",
-        "insecure": true
+        "insecure": false
       }
     },
     {
       "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 05 - xiaohe",
-      "server": "83.168.107.220",
-      "server_port": 443,
-      "uuid": "b1813cbd-831f-4cb3-baf8-5bc0cc8298bc",
+      "tag": "🇵🇱 波兰 (Poland) 04 - xiaohe",
+      "server": "31.77.13.19",
+      "server_port": 2063,
+      "uuid": "b18d5990-96eb-4587-a386-7f8ef7591e6a",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "google.com",
+        "server_name": "rusbid.de",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "s0lbZ5BO3ctZjE8DzsXkNL0NvLl6FgLG6532NQzXigo",
-          "short_id": "c56d4f1c"
+          "public_key": "MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "🇵🇱 波兰 (Poland) 06 - xiaohe",
+      "tag": "🇵🇱 波兰 (Poland) 05 - xiaohe",
       "server": "188.114.96.19",
       "server_port": 80,
       "uuid": "aed88e79-5762-4d2f-86fa-f438f32a7654",
@@ -107,8 +82,7 @@
         "🇵🇱 波兰 (Poland) 02 - xiaohe",
         "🇵🇱 波兰 (Poland) 03 - xiaohe",
         "🇵🇱 波兰 (Poland) 04 - xiaohe",
-        "🇵🇱 波兰 (Poland) 05 - xiaohe",
-        "🇵🇱 波兰 (Poland) 06 - xiaohe"
+        "🇵🇱 波兰 (Poland) 05 - xiaohe"
       ]
     },
     {
@@ -119,8 +93,7 @@
         "🇵🇱 波兰 (Poland) 02 - xiaohe",
         "🇵🇱 波兰 (Poland) 03 - xiaohe",
         "🇵🇱 波兰 (Poland) 04 - xiaohe",
-        "🇵🇱 波兰 (Poland) 05 - xiaohe",
-        "🇵🇱 波兰 (Poland) 06 - xiaohe"
+        "🇵🇱 波兰 (Poland) 05 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
